@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <style type="text/css">
+            select,input[type="text"]{
+                width: 100%;
+            }
+            input{
+                padding: 5px;
+            }
+            select{
+                padding: 10px 15px;
+            }
+            input[type="button"]{
+                border-radius: 10px;
+                padding: 20px;
+                width: 250px;
+                text-transform: uppercase;
+            }
+            td:hover{
+                font-weight: bold;
+                text-transform: uppercase;
+                color: blue;
+            }
+            input[type="button"]:hover{
+                font-weight: bold;
+                color: yellow;
+                background-color: green;
+            }
+        </style>
+    </head>
+<body bgcolor="gray">
+    <center>
+    <form>
+        <table>
+            <center><caption>Customer Registration</caption></center>
+            <center>
+            <tr>
+                <td>Customer Name:</td>
+                <td><input type="text" name="fullname" placeholder="Customer Name"></td>
+            </tr>
+             <tr>
+                <td>Customer Contact No:</td>
+                <td><input type="text" name="contact" placeholder="Customer Contact No:"></td>
+            </tr>
+             <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male">male
+                    <input type="radio" name="gender" value="female">female
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" name="addresss"></td>
+            </tr>
+            <tr>
+                <td>Preferred days:</td>
+                <td>
+                    <select name="pref-day">
+                        <option value="Monday">monday<br></option>
+                        <option value="Tuesday">tuesday<br></option>
+                        <option value="Wednesday">wednesday<br></option>
+                        <option value="Thursday">thursday<br></option>
+                        <option value="Friday">friday<br></option>
+                        <option value="Saturday">saturday<br></option>
+                        <option value="Sunday">sunday<br></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Favourite item:</td>
+                <td>
+                    <select name="fav-item">
+                        <option value="item">pranjali product<br></option>
+                        <option value="item">sweet corner<br></option>
+                        <option value="item">clothes<br></option>
+                        <option value="item">some toy's<br></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Suggestion:</td>
+                <td><textarea rows="5" cols="15"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="submit"></td>
+                <td><input type="button" value="reset"></td>
+            </tr>
+            <img src="/home/bba-ca-06/Downloads/product.jpg">
+        </center>
+        </table>
+    </form>
+</center>
+</body>
+</html>
+        
+                
+                    

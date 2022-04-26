@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+         <style type="text/css">
+            select,input[type="text"]{
+                width: 100%;
+            }
+            input{
+                padding: 5px;
+            }
+            select{
+                padding: 10px 15px;
+            }
+            input[type="button"]{
+                border-radius: 10px;
+                padding: 20px;
+                width: 250px;
+                text-transform: uppercase;
+            }
+            td:hover{
+                font-weight: bold;
+                text-transform: uppercase;
+                color: blue;
+            }
+            input[type="button"]:hover{
+                font-weight: bold;
+                color: yellow;
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body bgcolor="gray">
+        <form>
+            <fieldset>
+                <table>
+                    <legend>Personal Information</legend>
+                <tr>
+                    <td>First Name :</td>
+                    <td><input type="text" name="fname"></td>
+                </tr>
+                <tr>
+                    <td>Last Name :</td>
+                    <td><input type="text" name="lname"></td>
+                </tr>
+                <tr>
+                    <td> Gender :</td>
+                    <td>
+                        <input type="radio" name="Male">Male
+                        <input type="radio" name="Female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td> Select Your Favourite Colour :</td>
+                    <td>
+                        <input type="checkbox" name="Red">Red
+                        <input type="checkbox" name="Green">Green
+                        <input type="checkbox" name="Blue">blue
+                    </td>
+                </tr>
+                 <tr>
+                    <td> <input type="button" value="Submit"></td>
+                </tr>
+                </table>
+             </fieldset>
+        </form>
+    </body>
+</html>
